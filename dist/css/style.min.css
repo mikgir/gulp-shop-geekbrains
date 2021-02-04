@@ -1584,7 +1584,7 @@ ul {
 
 @media screen and (max-width: 1140px) {
   .wrapper {
-    max-width: 728px;
+    max-width: 808px;
   }
   .header-wrap {
     padding: 0 20px;
@@ -1605,6 +1605,9 @@ ul {
   }
   .promo-wrap h2 {
     font-size: 24px;
+  }
+  .site-navigation {
+    padding: 60px 20px;
   }
   .offer-links {
     padding: 0 20px;
@@ -1638,6 +1641,39 @@ ul {
   }
   .products-wrap .products-item {
     max-width: 45%;
+  }
+  .catalog .products-item:nth-child(3) {
+    display: none;
+  }
+  .shop-cart-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+  }
+  .shop-cart-wrap .billing-cards {
+    margin-top: 64px;
+    width: 100%;
+  }
+  .shop-cart-wrap .billing-cards .billing-forms {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .feature-wrap {
     -webkit-box-orient: vertical;
